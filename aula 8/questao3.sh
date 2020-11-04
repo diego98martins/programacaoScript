@@ -1,0 +1,5 @@
+#!/bin/bash
+
+arquivo=$1
+
+cat $arquivo | tr -s '\n'
