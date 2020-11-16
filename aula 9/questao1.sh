@@ -7,13 +7,13 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Liste apenas os diretórios de uma pasta")
-            ls -l | grep -E '^d' | cut -d ' ' -f11
+            ls -l | grep -E '^d'
             ;;
         "Liste apenas os executáveis")
-            ls -l | grep -E '^-..x' | cut -d ' ' -f11
+            ls -l | grep -E '^-..x'
             ;;
         "Liste apenas os scripts shell")
-             ls -l | grep -E '\.sh$' | cut -d ' ' -f11
+             ls -l | grep -E '\.sh$'
             ;;
         "Sair")
             break
