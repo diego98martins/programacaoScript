@@ -10,4 +10,4 @@ function motivacional() {
     echo $DATA ${frases[0]}
 }
 
-motivacional
+motivacional > frase_do_dia.txt
