@@ -1,0 +1,6 @@
+1 - instale o cron
+2 - utilize o comando crontab -e
+3 - acrescente @reboot caminho/do/script.sh ao final do arquivo
+4 - salve e feche
+
+isso deverá funcionar para as duas questões
